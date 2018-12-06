@@ -1,6 +1,6 @@
-body {
+html {
 	background-image: url(../images/theatre.jpg);
-	background-size:auto;
+	background-size:"";
 }
 h1 {
 	text-align: center;

@@ -28,7 +28,7 @@ $.ajax({
 $("#add-person").on("click", function(event) {
     event.preventDefault();
 
-    var person = $("#person-input").val().trim();
+    var person = $("#person-input").val();
 
     person.push(person);
 
