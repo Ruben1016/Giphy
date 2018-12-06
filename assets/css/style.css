@@ -1,2 +1,12 @@
 body {
-	background: url(../images/theatre.jpg);
+	background-image: url(../images/theatre.jpg);
+	background-size:auto;
+}
+h1 {
+	text-align: center;
+	color: blue;
+
+}
+label {
+	color: aqua;
+}

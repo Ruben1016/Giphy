@@ -25,3 +25,28 @@ $.ajax({
     }
   });
 });
+$("#add-person").on("click", function(event) {
+    event.preventDefault();
+
+    var person = $("#person-input").val().trim();
+
+    person.push(person);
+
+    renderButtons();
+  });
+
+  $(document).on("click", ".person-btn");
+
+  renderButtons();
+
+  $(".person").on("click", function() {
+    var state = $(this).attr("data-state");
+
+    if (state === "still") {
+      $(this).attr("person", $(this).attr("data-animate"));
+      $(this).attr("data-state", "animate");
+    } else {
+      $(this).attr("person", $(this).attr("data-still"));
+      $(this).attr("data-state", "still");
+    }
+  });

@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Giphy</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Giphy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <h1>Giphy Celebrities</h1>
+  <body>
+    <div id="buttons-view"></div>
 
+    <form id="person-form">
+      <label for="person-input">Enter a Celeb</label>
+      <input type="text" id="person-input" /><br />
 
-</head>
-<body>
-	<button data-person="Bruce Lee">Bruce Lee </button>
-	<button data-person="Jet Li">Jet Li </button>
-	<button data-person="Jason Staham">Jason Staham </button>
-	<button data-person="Gordon Ramsay">Gordon Ramsay </button>
+      <input id="add-person" type="submit" value="Enter a Celeb" />
+    </form>
 
-	<div id="gifs-appear-here">
-	</div>
+    <br />
 
-</body>
+    <button data-person="Bruce Lee">Bruce Lee</button>
+    <button data-person="Jet Li">Jet Li</button>
+    <button data-person="Jason Staham">Jason Staham</button>
+    <button data-person="Gordon Ramsay">Gordon Ramsay</button>
+    <button data-person="Fat Albert">Fat Albert</button>
+    <button data-person="Michael Myers">Micheal Myers</button>
 
-<body style="background-image:url('theatre.jpg')">
-	
-	</body>
+    <div id="gifs-appear-here"></div>
+  </body>
 
-<script src="assets/javascript/app.js"></script>
+  <script src="assets/javascript/app.js"></script>
 </html>
 
 <!-- citations -->
-<!-- week3-day-4-Activities 6,10,13 -->
+<!-- week-3-day-4-Activities 6,10,13 -->
+<!-- Week-3-day-5-activity- 15 -->
