@@ -4,9 +4,17 @@ body {
 }
 h1 {
 	text-align: center;
-	color: blue;
-
+	color:red;
+	font-size: 55px;
 }
 label {
-	color: aqua;
+	color:red;
+	font-size: 35px;
+	
+}
+button {
+	background-color: aqua;
+}
+input {
+	background-color: aqua;
 }
