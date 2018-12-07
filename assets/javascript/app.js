@@ -1,3 +1,5 @@
+// week-3-day-4-acitivity-13
+
 $("button").on("click", function() {
 
 var person = $(this).attr("data-person");
@@ -25,6 +27,7 @@ $.ajax({
     }
   });
 });
+// week-3-day-4-activity-10
 $("#add-person").on("click", function(event) {
     event.preventDefault();
 
@@ -34,7 +37,7 @@ $("#add-person").on("click", function(event) {
 
     renderButtons();
   });
-
+// week-3-day-5-activity-15
   $(document).on("click", ".person-btn");
 
   renderButtons();
